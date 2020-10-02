@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Layout_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_header_message_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message_reply"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_message_reply"
+        android:layout_below="@id/text_header_message_reply"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:text="@string/massage_text"/>
+
+    <Button
+        android:id="@+id/button_1"
+        android:text="@string/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="launchSecondActivity"/>
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/button_1"
+        android:layout_toStartOf="@id/button_1"
+        android:layout_marginRight="12dp"
+        android:hint="@string/hint_massage_text"
+        />
+
+
+</RelativeLayout>

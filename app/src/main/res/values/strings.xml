@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intent Intent</string>
+    <string name="button_main">SEND</string>
+    <string name="button_second_activity">REPLY</string>
+    <string name="text_header">Intent Intent</string>
+    <string name="message_receiver">Kirim Balasan</string>
+    <string name="message_reply">Pesan Balasan</string>
+    <string name="massage_text">Text Pesan</string>
+    <string name="hint_massage_text">Tuliskan Pesan Anda</string>
+
+</resources>
